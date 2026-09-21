@@ -1,8 +1,6 @@
-<!-- LOGO: the Parasite Eve HD Remaster logo goes here (media/logo.png), like the Parasite Eve II HD Remaster banner:
 <p align="center">
-  <img src="media/logo.png" alt="Parasite Eve HD Remaster" width="820">
+  <img src="media/logo.jpg" alt="Parasite Eve HD Remaster" width="820">
 </p>
--->
 
 <p align="center">
   <b>A native PC version of Parasite Eve, rebuilt from the original PlayStation game and remastered in high definition.</b>
@@ -41,6 +39,21 @@ executables or game data.
 The Carnegie Hall auditorium, the room where it all begins, is the first remastered background. It is the **whole
 camera view**, larger than the screen (517×384 pixels in the original, scrolled by the camera): rebuilt from the game
 data, upscaled in one piece with AI to 4653×3456 and handed back to the game tile by tile.
+
+<table>
+  <tr>
+    <th align="center" width="50%">Original PS1</th>
+    <th align="center" width="50%">HD Remaster</th>
+  </tr>
+  <tr>
+    <td><img src="media/comparisons/03_patio_butacas_original.png" alt="Carnegie Hall auditorium on the original PS1"></td>
+    <td><img src="media/comparisons/04_patio_butacas_hd.png" alt="Carnegie Hall auditorium in HD Remaster"></td>
+  </tr>
+</table>
+
+<p align="center"><b>In game: Aya in the Carnegie Hall auditorium</b></p>
+
+### Whole background
 
 <p align="center">
   <img src="media/comparisons/01_carnegie_hall.jpg" alt="Carnegie Hall auditorium: left half original PS1, right half HD" width="900"><br>

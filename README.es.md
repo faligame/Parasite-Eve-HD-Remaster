@@ -1,8 +1,6 @@
-<!-- LOGO: aquí irá el logo de Parasite Eve HD Remaster (media/logo.png), como el banner de Parasite Eve II HD Remaster:
 <p align="center">
-  <img src="media/logo.png" alt="Parasite Eve HD Remaster" width="820">
+  <img src="media/logo.jpg" alt="Parasite Eve HD Remaster" width="820">
 </p>
--->
 
 <p align="center">
   <b>Una versión nativa para PC de Parasite Eve, reconstruida a partir del juego original de PlayStation y remasterizada en alta definición.</b>
@@ -41,6 +39,21 @@ ejecutables ni datos del juego.
 El patio de butacas del Carnegie Hall, la sala donde empieza todo, es el primer fondo remasterizado. Es la **cámara
 completa**, más grande que la pantalla (517×384 píxeles en el original, recorridos con desplazamiento de cámara):
 reconstruida desde los datos del juego, reescalada entera con IA a 4653×3456 y devuelta pieza a pieza al juego.
+
+<table>
+  <tr>
+    <th align="center" width="50%">PS1 original</th>
+    <th align="center" width="50%">HD Remaster</th>
+  </tr>
+  <tr>
+    <td><img src="media/comparisons/03_patio_butacas_original.png" alt="Patio de butacas del Carnegie Hall en la PS1 original"></td>
+    <td><img src="media/comparisons/04_patio_butacas_hd.png" alt="Patio de butacas del Carnegie Hall en HD Remaster"></td>
+  </tr>
+</table>
+
+<p align="center"><b>En el juego: Aya en el patio de butacas del Carnegie Hall</b></p>
+
+### Fondo completo
 
 <p align="center">
   <img src="media/comparisons/01_carnegie_hall.jpg" alt="Patio de butacas del Carnegie Hall: mitad izquierda PS1 original, mitad derecha HD" width="900"><br>
