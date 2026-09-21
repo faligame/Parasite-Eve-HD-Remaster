@@ -42,23 +42,10 @@ reconstruida desde los datos del juego, reescalada entera con IA a 4653×3456 y 
 
 <table>
   <tr>
-    <th align="center" width="50%">PS1 original</th>
-    <th align="center" width="50%">HD Remaster</th>
-  </tr>
-  <tr>
-    <td><img src="media/comparisons/03_patio_butacas_original.png" alt="Patio de butacas del Carnegie Hall en la PS1 original"></td>
-    <td><img src="media/comparisons/04_patio_butacas_hd.png" alt="Patio de butacas del Carnegie Hall en HD Remaster"></td>
+    <td align="center" width="50%"><img src="media/comparisons/01_patio_butacas.webp" alt="Patio de butacas del Carnegie Hall con Aya: PS1 original frente a HD"><br><b>En el juego</b></td>
+    <td align="center" width="50%"><img src="media/comparisons/02_fondo_completo.webp" alt="Fondo completo del patio de butacas: PS1 original frente a HD"><br><b>Fondo completo de la cámara</b></td>
   </tr>
 </table>
-
-<p align="center"><b>En el juego: Aya en el patio de butacas del Carnegie Hall</b></p>
-
-### Fondo completo
-
-<p align="center">
-  <img src="media/comparisons/01_carnegie_hall.jpg" alt="Patio de butacas del Carnegie Hall: mitad izquierda PS1 original, mitad derecha HD" width="900"><br>
-  <b>Mitad izquierda: PS1 original · Mitad derecha: HD Remaster</b>
-</p>
 
 <p align="center">
   <img src="media/comparisons/02_carnegie_hall_detalle.jpg" alt="Detalle del escenario y la escalera: original frente a HD" width="900"><br>

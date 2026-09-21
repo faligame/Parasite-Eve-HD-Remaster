@@ -42,23 +42,10 @@ data, upscaled in one piece with AI to 4653×3456 and handed back to the game ti
 
 <table>
   <tr>
-    <th align="center" width="50%">Original PS1</th>
-    <th align="center" width="50%">HD Remaster</th>
-  </tr>
-  <tr>
-    <td><img src="media/comparisons/03_patio_butacas_original.png" alt="Carnegie Hall auditorium on the original PS1"></td>
-    <td><img src="media/comparisons/04_patio_butacas_hd.png" alt="Carnegie Hall auditorium in HD Remaster"></td>
+    <td align="center" width="50%"><img src="media/comparisons/01_patio_butacas.webp" alt="Carnegie Hall auditorium with Aya: original PS1 vs HD"><br><b>In game</b></td>
+    <td align="center" width="50%"><img src="media/comparisons/02_fondo_completo.webp" alt="Whole auditorium background: original PS1 vs HD"><br><b>Whole camera background</b></td>
   </tr>
 </table>
-
-<p align="center"><b>In game: Aya in the Carnegie Hall auditorium</b></p>
-
-### Whole background
-
-<p align="center">
-  <img src="media/comparisons/01_carnegie_hall.jpg" alt="Carnegie Hall auditorium: left half original PS1, right half HD" width="900"><br>
-  <b>Left half: original PS1 · Right half: HD Remaster</b>
-</p>
 
 <p align="center">
   <img src="media/comparisons/02_carnegie_hall_detalle.jpg" alt="Stage and staircase detail: original vs HD" width="900"><br>
