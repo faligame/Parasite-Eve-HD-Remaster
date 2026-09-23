@@ -67,7 +67,7 @@ reconstruida desde los datos del juego, reescalada entera con IA a 4653×3456 y 
   </tr>
   <tr>
     <td width="50%"><img src="media/screenshots/04_aya_nina.jpg" alt="Aya y una niña, texturas de personaje en HD"><br><b>Personajes con sus texturas HD</b></td>
-    <td width="50%"><img src="media/screenshots/06_dialogo_castellano.jpg" alt="Diálogo con la fuente HD"><br><b>Fuente HD (aquí con la traducción al castellano de la comunidad)</b></td>
+    <td width="50%"><img src="media/screenshots/06_dialogo_castellano.jpg" alt="Diálogo con la fuente HD"><br><b>Fuente HD (aquí con la traducción al castellano de Green_goblin)</b></td>
   </tr>
 </table>
 
@@ -111,8 +111,8 @@ reconstruida desde los datos del juego, reescalada entera con IA a 4653×3456 y 
 ### 🔤 Textos e idiomas
 - **Fuente de diálogos HD.** Las letras de 12×12 píxeles se sustituyen por una tipografía real dibujada a ocho veces
   su tamaño, con la sombra propia del juego y sus nombres de color.
-- **Compatible con la traducción al castellano de la comunidad**, con sus acentos y sus letras añadidas, y la fuente
-  HD las cubre todas.
+- **Compatible con la traducción al castellano** del [Parasite Eve Translation Project](https://parasiteevetranslationproject.blogspot.com/),
+  de Green_goblin, con sus acentos y sus letras añadidas, y la fuente HD las cubre todas.
 - **Textos editables.** Todas las frases del juego (diálogos, menús, nombres de objetos) se pueden exportar, editar en
   una hoja de cálculo y volver a meter, sin tocar el disco.
 - **Pantalla de título HD.** El logotipo, el menú y su resplandor se reconstruyen en alta resolución, en inglés y en
@@ -149,7 +149,7 @@ reconstruida desde los datos del juego, reescalada entera con IA a 4653×3456 y 
 | ✅ | Pack de fondos HD completo (todas las salas y cámaras) |
 | ✅ | Personajes, enemigos y objetos remasterizados |
 | ✅ | Efectos de combate remasterizados (una versión por paleta) y mapa de Nueva York |
-| ✅ | Fuente de diálogos HD, textos editables y compatibilidad con la traducción al castellano de la comunidad |
+| ✅ | Fuente de diálogos HD, textos editables y compatibilidad con la traducción al castellano de Green_goblin |
 | ✅ | Pantalla de título HD |
 | ✅ | Arranque rápido, avance rápido y trucos opcionales |
 | 🚧 | Interfaz de combate y menús en HD |
@@ -171,7 +171,7 @@ reconstruida desde los datos del juego, reescalada entera con IA a 4653×3456 y 
 - **Efectos de combate y mapa de Nueva York**: 698 sprites, remasterizados con una versión por paleta para que el juego
   siga recoloreándolos como siempre.
 - **Texto en HD**: una tipografía real para los diálogos a ocho veces el tamaño original, compatibilidad con la
-  traducción al castellano de la comunidad con todos sus acentos, y la pantalla de título reconstruida en HD.
+  traducción al castellano de Green_goblin con todos sus acentos, y la pantalla de título reconstruida en HD.
 - **Más cómodo de jugar**: hasta 8x de resolución interna, FXAA, arranque rápido, avance rápido con L2 y trucos
   opcionales.
 
@@ -213,6 +213,7 @@ Por ahora no.
 | [Descompilación de Parasite Eve](https://github.com/khasinski/parasite-eve-decomp) | khasinski y colaboradores | Documentación de los formatos del juego (salas, fondos, texturas), símbolos y direcciones | — |
 | [OpenBIOS](https://github.com/grumpycoders/pcsx-redux) | Proyecto PCSX-Redux | BIOS libre con la que arranca el juego | MIT |
 | [Beetle PSX](https://github.com/libretro/beetle-psx-libretro) | libretro, basado en Mednafen | Referencia de precisión usada por PSXRecomp | GPL-2.0 |
+| [Parasite Eve Translation Project](https://parasiteevetranslationproject.blogspot.com/) | Green_goblin | Traducción al castellano del juego, compatible con esta versión | — |
 | PGXP | iCatButler | Técnica original de precisión de geometría | — |
 | [PlayStation Specifications (psx-spx)](https://psx-spx.consoledev.net/) | Martin "nocash" Korth y colaboradores | Documentación del hardware | — |
 

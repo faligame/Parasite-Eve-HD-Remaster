@@ -67,7 +67,7 @@ data, upscaled in one piece with AI to 4653×3456 and handed back to the game ti
   </tr>
   <tr>
     <td width="50%"><img src="media/screenshots/04_aya_nina.jpg" alt="Aya and a girl, HD character textures"><br><b>Characters with their HD textures</b></td>
-    <td width="50%"><img src="media/screenshots/06_dialogo_castellano.jpg" alt="Dialogue with the HD font"><br><b>HD font (here with the community Spanish translation)</b></td>
+    <td width="50%"><img src="media/screenshots/06_dialogo_castellano.jpg" alt="Dialogue with the HD font"><br><b>HD font (here with Green_goblin's Spanish translation)</b></td>
   </tr>
 </table>
 
@@ -111,8 +111,8 @@ data, upscaled in one piece with AI to 4653×3456 and handed back to the game ti
 ### 🔤 Text and languages
 - **HD dialogue font.** The 12×12 pixel letters are replaced by a real typeface rendered at eight times the size, with
   the game's own shadow and its coloured names.
-- **The community Spanish translation is supported**, with its accents and its extra letters, and the HD font covers
-  them all.
+- **The Spanish fan translation is supported** ([Parasite Eve Translation Project](https://parasiteevetranslationproject.blogspot.com/),
+  by Green_goblin), with its accents and its extra letters, and the HD font covers them all.
 - **Editable texts.** Every line in the game (dialogues, menus, item names) can be exported, edited in a spreadsheet
   and put back, without touching the disc.
 - **HD title screen.** The logo, the menu and their glow are rebuilt in high resolution, in English and in Spanish.
@@ -147,7 +147,7 @@ data, upscaled in one piece with AI to 4653×3456 and handed back to the game ti
 | ✅ | Complete HD background pack (every room and camera) |
 | ✅ | Remastered characters, enemies and objects |
 | ✅ | Remastered combat effects (one version per palette) and New York map |
-| ✅ | HD dialogue font, editable texts and support for the community Spanish translation |
+| ✅ | HD dialogue font, editable texts and support for the Spanish fan translation |
 | ✅ | HD title screen |
 | ✅ | Fast boot, fast forward and optional cheats |
 | 🚧 | HD combat interface and menus |
@@ -168,7 +168,7 @@ data, upscaled in one piece with AI to 4653×3456 and handed back to the game ti
 - **Combat effects and the New York map**: 698 sprites, remastered one version per palette so the game keeps
   recolouring them as it always did.
 - **Text in HD**: a real typeface for the dialogues at eight times the original size, support for the community
-  Spanish translation with all its accents, and a rebuilt HD title screen.
+  Spanish fan translation (Green_goblin) with all its accents, and a rebuilt HD title screen.
 - **Nicer to play**: up to 8x internal resolution, FXAA, fast boot, fast forward on L2 and optional cheats.
 
 **21-09-2026 — The project starts, and the first HD background**
@@ -208,6 +208,7 @@ Not for now.
 | [Parasite Eve decompilation](https://github.com/khasinski/parasite-eve-decomp) | khasinski and contributors | Documentation of the game's formats (rooms, backgrounds, textures), symbols and addresses | — |
 | [OpenBIOS](https://github.com/grumpycoders/pcsx-redux) | PCSX-Redux project | Free BIOS the game boots with | MIT |
 | [Beetle PSX](https://github.com/libretro/beetle-psx-libretro) | libretro, based on Mednafen | Accuracy reference used by PSXRecomp | GPL-2.0 |
+| [Parasite Eve Translation Project](https://parasiteevetranslationproject.blogspot.com/) | Green_goblin | Spanish fan translation of the game, supported by this version | — |
 | PGXP | iCatButler | Original geometry precision technique | — |
 | [PlayStation Specifications (psx-spx)](https://psx-spx.consoledev.net/) | Martin "nocash" Korth and contributors | Hardware documentation | — |
 
