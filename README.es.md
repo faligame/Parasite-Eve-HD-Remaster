@@ -54,6 +54,25 @@ reconstruida desde los datos del juego, reescalada entera con IA a 4653×3456 y 
 
 ---
 
+## Galería
+
+<table>
+  <tr>
+    <td width="50%"><img src="media/screenshots/01_titulo.jpg" alt="Pantalla de título HD"><br><b>Pantalla de título, redibujada en HD</b></td>
+    <td width="50%"><img src="media/screenshots/02_carnegie_vestibulo.jpg" alt="Vestíbulo del Carnegie Hall en HD"><br><b>Vestíbulo del Carnegie Hall</b></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="media/screenshots/05_heavenly_gate.jpg" alt="Alcantarillas en HD"><br><b>Alcantarillas: fondo HD con su agua animada</b></td>
+    <td width="50%"><img src="media/screenshots/03_callejon.jpg" alt="Callejón de bastidores en HD"><br><b>Bastidores, con el primer plano que tapa a Aya</b></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="media/screenshots/04_aya_nina.jpg" alt="Aya y una niña, texturas de personaje en HD"><br><b>Personajes con sus texturas HD</b></td>
+    <td width="50%"><img src="media/screenshots/06_dialogo_castellano.jpg" alt="Diálogo con la fuente HD"><br><b>Fuente HD (aquí con la traducción al castellano de la comunidad)</b></td>
+  </tr>
+</table>
+
+---
+
 ## Características
 
 ### 🖥️ Versión nativa para PC
@@ -76,6 +95,37 @@ reconstruida desde los datos del juego, reescalada entera con IA a 4653×3456 y 
   y una herramienta devuelve cada pieza HD a su sitio exacto (comprobado píxel a píxel). No hay costuras entre piezas.
 - **Primer plano incluido.** Los marcos de puerta, columnas y butacas que tapan a Aya salen de las mismas piezas del
   fondo, así que también pasan a HD y siguen tapándola igual.
+- **Elementos animados de los fondos.** El agua, las luces y las puertas no forman parte del fondo fijo: el juego las
+  pinta encima, fotograma a fotograma, con las mismas piezas. Cada fotograma de cada animación se reconstruye desde el
+  disco y se remasteriza, así que el movimiento también queda en HD.
+- **Personajes, enemigos y objetos.** Cada textura de modelo se lee directamente del disco, con los colores y la
+  profundidad reales con que la dibuja el juego, y se remasteriza: Aya y sus trajes, la gente con la que se cruza y
+  las criaturas con las que pelea.
+- **Efectos de combate, por paleta.** El ácido, los rayos y las descargas de Parasite Energy son hojas de 16 colores
+  que el juego recolorea al dibujarlas, así que una sola imagen HD no bastaba. Cada hoja se remasteriza una vez por
+  paleta y el juego elige la que toca mientras juegas.
+- **Los fundidos de paleta se respetan.** Cuando el juego funde la sala a gris al empezar un combate lo hace cambiando
+  las paletas. Ahora las texturas HD siguen ese fundido en vez de quedarse con su color.
+- **El mapa de Nueva York**, con las texturas de sus edificios y los nombres de los lugares, también remasterizado.
+
+### 🔤 Textos e idiomas
+- **Fuente de diálogos HD.** Las letras de 12×12 píxeles se sustituyen por una tipografía real dibujada a ocho veces
+  su tamaño, con la sombra propia del juego y sus nombres de color.
+- **Compatible con la traducción al castellano de la comunidad**, con sus acentos y sus letras añadidas, y la fuente
+  HD las cubre todas.
+- **Textos editables.** Todas las frases del juego (diálogos, menús, nombres de objetos) se pueden exportar, editar en
+  una hoja de cálculo y volver a meter, sin tocar el disco.
+- **Pantalla de título HD.** El logotipo, el menú y su resplandor se reconstruyen en alta resolución, en inglés y en
+  castellano.
+
+### ✨ Comodidades
+- **Hasta 8x de resolución interna** (y antialiasing FXAA) para bordes limpios en los modelos 3D.
+- **Arranque rápido**: el aviso legal y las cargas previas ya no te hacen esperar.
+- **Avance rápido** manteniendo L2 en el mando, con un aviso en pantalla.
+- **Trucos opcionales** de HP infinito, Parasite Energy infinita, Bonus Points al máximo y EXP x4, cada uno con su
+  atajo en el mando.
+
+### 🛠️ Herramientas
 - **Pensado para quien hace texturas**: volcado automático de cada textura con sus colores reales, captura de la
   cámara actual con una tecla, recarga del pack con el juego abierto y una tecla para comparar al momento con el
   original.
@@ -95,9 +145,14 @@ reconstruida desde los datos del juego, reescalada entera con IA a 4653×3456 y 
 | ✅ | Reconstrucción de los fondos completos de cada sala y cámara desde el disco |
 | ✅ | Reescalado del fondo completo y reparto automático de sus piezas, primer plano incluido |
 | ✅ | Primer fondo HD: patio de butacas del Carnegie Hall |
-| 🚧 | Elementos animados de los fondos (luces, puertas) |
-| 🚧 | Completar el pack de fondos HD |
-| 🔜 | Personajes, enemigos y armas remasterizados |
+| ✅ | Elementos animados de los fondos (agua, luces, puertas) |
+| ✅ | Pack de fondos HD completo (todas las salas y cámaras) |
+| ✅ | Personajes, enemigos y objetos remasterizados |
+| ✅ | Efectos de combate remasterizados (una versión por paleta) y mapa de Nueva York |
+| ✅ | Fuente de diálogos HD, textos editables y compatibilidad con la traducción al castellano de la comunidad |
+| ✅ | Pantalla de título HD |
+| ✅ | Arranque rápido, avance rápido y trucos opcionales |
+| 🚧 | Interfaz de combate y menús en HD |
 | 🔜 | Cinemáticas en alta resolución |
 | 🔜 | Panorámico 16:9, 60 FPS, cargas rápidas y disco único (como en Parasite Eve II HD Remaster) |
 | 🔜 | Instalador que construye el juego desde tus propios discos, para no distribuir nunca datos del juego |
@@ -106,6 +161,19 @@ reconstruida desde los datos del juego, reescalada entera con IA a 4653×3456 y 
 ---
 
 ## Novedades
+
+**23-09-2026 — Todo el juego en HD: animaciones, personajes, efectos y texto**
+- **El pack de fondos HD está completo**: todas las cámaras de todas las salas, 2835 de las 2836 imágenes de fondo del
+  disco.
+- **Con los elementos animados**: 2296 fotogramas de animación (agua, luces, puertas) reconstruidos desde el disco,
+  remasterizados y devueltos pieza a pieza.
+- **Personajes, enemigos y objetos remasterizados**: 257 texturas de modelos leídas del disco con sus colores reales.
+- **Efectos de combate y mapa de Nueva York**: 698 sprites, remasterizados con una versión por paleta para que el juego
+  siga recoloreándolos como siempre.
+- **Texto en HD**: una tipografía real para los diálogos a ocho veces el tamaño original, compatibilidad con la
+  traducción al castellano de la comunidad con todos sus acentos, y la pantalla de título reconstruida en HD.
+- **Más cómodo de jugar**: hasta 8x de resolución interna, FXAA, arranque rápido, avance rápido con L2 y trucos
+  opcionales.
 
 **21-09-2026 — Arranca el proyecto y primer fondo HD**
 - **El juego funciona como ejecutable nativo**: la edición americana (los dos discos) se recompila y ya se puede jugar

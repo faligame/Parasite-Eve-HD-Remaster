@@ -54,6 +54,25 @@ data, upscaled in one piece with AI to 4653×3456 and handed back to the game ti
 
 ---
 
+## Gallery
+
+<table>
+  <tr>
+    <td width="50%"><img src="media/screenshots/01_titulo.jpg" alt="HD title screen"><br><b>Title screen, redrawn in HD</b></td>
+    <td width="50%"><img src="media/screenshots/02_carnegie_vestibulo.jpg" alt="Carnegie Hall lobby in HD"><br><b>Carnegie Hall lobby</b></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="media/screenshots/05_heavenly_gate.jpg" alt="Sewers in HD"><br><b>Sewers: HD background with its animated water</b></td>
+    <td width="50%"><img src="media/screenshots/03_callejon.jpg" alt="Backstage alley in HD"><br><b>Backstage, with the foreground that hides Aya</b></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="media/screenshots/04_aya_nina.jpg" alt="Aya and a girl, HD character textures"><br><b>Characters with their HD textures</b></td>
+    <td width="50%"><img src="media/screenshots/06_dialogo_castellano.jpg" alt="Dialogue with the HD font"><br><b>HD font (here with the community Spanish translation)</b></td>
+  </tr>
+</table>
+
+---
+
 ## Features
 
 ### 🖥️ Native PC version
@@ -77,6 +96,35 @@ data, upscaled in one piece with AI to 4653×3456 and handed back to the game ti
   context, and a tool puts every HD tile back in its exact place (verified pixel by pixel). No seams between tiles.
 - **Foreground included.** The door frames, pillars and seats that hide Aya come from the same background tiles, so they
   go HD as well and keep covering her exactly as before.
+- **Animated background elements.** Water, lights and doors are not part of the fixed background: the game paints them
+  on top, frame by frame, with the same tiles. Every frame of every animation is rebuilt from the disc and remastered,
+  so the movement stays in HD too.
+- **Characters, enemies and objects.** Every model texture is read straight from the disc, with the real colours and
+  depth the game draws it with, and remastered: Aya and her outfits, the people she meets and the creatures she fights.
+- **Combat effects, by palette.** The acid, the lightning and the Parasite Energy blasts are 16-colour sheets that the
+  game recolours as it draws them, so one HD image was not enough. Each sheet is remastered once per palette and the
+  game picks the right one while it plays.
+- **Palette fades are followed.** When the game fades a room to grey as combat starts, it does it by changing the
+  palettes. The HD textures now follow that fade instead of staying bright.
+- **The New York map**, its building textures and its place names, remastered as well.
+
+### 🔤 Text and languages
+- **HD dialogue font.** The 12×12 pixel letters are replaced by a real typeface rendered at eight times the size, with
+  the game's own shadow and its coloured names.
+- **The community Spanish translation is supported**, with its accents and its extra letters, and the HD font covers
+  them all.
+- **Editable texts.** Every line in the game (dialogues, menus, item names) can be exported, edited in a spreadsheet
+  and put back, without touching the disc.
+- **HD title screen.** The logo, the menu and their glow are rebuilt in high resolution, in English and in Spanish.
+
+### ✨ Quality of life
+- **Up to 8x internal resolution** (and FXAA antialiasing) for clean edges on the 3D models.
+- **Fast boot**: the legal notice and the loads before it no longer make you wait.
+- **Fast forward** by holding L2 on the pad, with an on-screen indicator.
+- **Optional cheats** for infinite HP, infinite Parasite Energy, maximum Bonus Points and 4x EXP, each one on its own
+  pad shortcut.
+
+### 🛠️ Tools
 - **Built for texture artists**: automatic dumps of every texture with its real colours, one-key capture of the current
   camera, hot reload of the pack while the game is running and one key to compare instantly with the original.
 
@@ -95,9 +143,14 @@ data, upscaled in one piece with AI to 4653×3456 and handed back to the game ti
 | ✅ | Whole backgrounds of every room and camera rebuilt from the disc |
 | ✅ | Whole-background upscaling with automatic tile placement, foreground included |
 | ✅ | First HD background: Carnegie Hall auditorium |
-| 🚧 | Animated background elements (lights, doors) |
-| 🚧 | Complete HD background pack |
-| 🔜 | Remastered characters, enemies and weapons |
+| ✅ | Animated background elements (water, lights, doors) |
+| ✅ | Complete HD background pack (every room and camera) |
+| ✅ | Remastered characters, enemies and objects |
+| ✅ | Remastered combat effects (one version per palette) and New York map |
+| ✅ | HD dialogue font, editable texts and support for the community Spanish translation |
+| ✅ | HD title screen |
+| ✅ | Fast boot, fast forward and optional cheats |
+| 🚧 | HD combat interface and menus |
 | 🔜 | High resolution cutscenes |
 | 🔜 | 16:9 widescreen, 60 FPS, fast loading and single disc (as in Parasite Eve II HD Remaster) |
 | 🔜 | Installer that builds the game from your own discs, so no game data is ever distributed |
@@ -106,6 +159,17 @@ data, upscaled in one piece with AI to 4653×3456 and handed back to the game ti
 ---
 
 ## News
+
+**23-09-2026 — The whole game in HD: animations, characters, effects and text**
+- **The HD background pack is complete**: every camera of every room, 2835 of the 2836 background images on the disc.
+- **Animated elements included**: 2296 animation frames (water, lights, doors) rebuilt from the disc, remastered and
+  handed back tile by tile.
+- **Characters, enemies and objects remastered**: 257 model textures read from the disc with their real colours.
+- **Combat effects and the New York map**: 698 sprites, remastered one version per palette so the game keeps
+  recolouring them as it always did.
+- **Text in HD**: a real typeface for the dialogues at eight times the original size, support for the community
+  Spanish translation with all its accents, and a rebuilt HD title screen.
+- **Nicer to play**: up to 8x internal resolution, FXAA, fast boot, fast forward on L2 and optional cheats.
 
 **21-09-2026 — The project starts, and the first HD background**
 - **The game runs as a native executable**: the North American release (both discs) is recompiled and already
